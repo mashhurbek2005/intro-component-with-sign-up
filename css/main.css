@@ -141,7 +141,7 @@ a{
 
 .input-title{
     margin-top: 0;
-    margin-bottom: 79px;
+    margin-bottom: 59px;
     font-weight: 600;
     font-size: 32px;
     line-height: 42px;
@@ -150,7 +150,8 @@ a{
 
 .intro-input{
     width: 450px;
-    margin-bottom: 35px;
+    margin-bottom: 21px;
+    padding-top: 14px;
     padding-bottom: 14px;
     border: none;
     font-weight: 600;
@@ -172,7 +173,7 @@ a{
 }
 
 .user-password{
-    margin-bottom: 63px;
+    margin-bottom: 55px;
 }
 
 .intro-button{
