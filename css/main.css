@@ -96,7 +96,7 @@ a{
 
 .intro-title{
     margin-top: 0;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     font-weight: 700;
     font-size: 36px;
     line-height: 46px;
@@ -150,7 +150,6 @@ a{
 
 .intro-input{
     width: 450px;
-    margin-bottom: 21px;
     padding-top: 14px;
     padding-bottom: 14px;
     border: none;
@@ -173,7 +172,32 @@ a{
 }
 
 .user-password{
-    margin-bottom: 55px;
+    /* margin-bottom: 55px; */
+}
+
+.input-bottom-text{
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: right;
+    color: #F03535;
+    opacity: 0;
+}
+
+.intro-input:not(:placeholder-shown):not(:focus):invalid ~ .input-bottom-text{
+    opacity: 1;
+}
+
+.intro-input:not(:placeholder-shown):not(:focus):invalid{
+    color: #F03535;
+    border-bottom: 1px solid #F03535;
+}
+
+.last-span{
+    margin-bottom: 46px;
 }
 
 .intro-button{
